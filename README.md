@@ -15,7 +15,7 @@ repository is to create a configuration that
 
 At least on the platforms I mainly use: Windows, Linux and Termux.
 
-## Filosophy
+## Philosophy
 
 To achieve these goals, this repository will adhere to the following guidelines:
 
