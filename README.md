@@ -5,12 +5,12 @@
 </div>
 
 > [!WARNING]
-> Right now this just at the design stage. And it's not meant for user use.
+> Right now this is just at the design stage. And it's not meant for user use.
 
 This is my (maybe) platform agnostic and modular neovim configuration. The main goal of this
 repository is to create a configuration that 
 
-- can be easily modified,
+- can be easily modified, and
 - it _just works_ anywhere
 
 At least on the platforms I mainly use: Windows, Linux and Termux.

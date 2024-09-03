@@ -9,7 +9,7 @@ if vim.fn.has(nvim_version) == 0 then
     return {}
 end
 
-local editor = require("editor")
+local editor_options = require("editor.options")
 
-editor.apply_defaults()
+editor_options.apply_defaults(vim.go)
 
