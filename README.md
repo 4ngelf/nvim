@@ -24,5 +24,5 @@ still being easy to modify and manage.
 - Neovim needs to ask the user before automatic access of resources outside the
   [standard paths][nvim.standardpaths.help]. Including network access.
 
-[nvim.command.help]: https://neovim.io/doc/user/cmdline.html#cmdline
+[nvim.commands.help]: https://neovim.io/doc/user/cmdline.html#cmdline
 [nvim.standardpaths.help]: https://neovim.io/doc/user/starting.html#_standard-paths
