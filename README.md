@@ -5,28 +5,24 @@
 </div>
 
 > [!WARNING]
-> Right now this just at the design stage. And it's not meant for user use.
+> Right now this just a proof of concept and it's not ready as a text editor.
 
-This is my (maybe) platform agnostic and modular neovim configuration. The main goal of this
-repository is to create a configuration that 
-
-- can be easily modified,
-- it _just works_ anywhere
-
-At least on the platforms I mainly use: Windows, Linux and Termux.
+This is my neovim configuration based on features and modularity. The main goal
+is a configuration that just works in any environment that neovim supports while
+still being easy to modify and manage.
 
 ## Philosophy
 
-To achieve these goals, this repository will adhere to the following guidelines:
+- Neovim just works at a minimum level with the absense of plugins, external
+  applications or terminal capabilities.
+- Any feature is only available when the necessary requirements are met.
+- Features work the same regarless of the platform.
+- The user decides which features to enable.
+- The user is responsible for dependencies.
+- Neovim helps manage features and dependencies with
+  [`:Commands`][nvim.commands.help] and configuration files.
+- Neovim needs to ask the user before automatic access of resources outside the
+  [standard paths][nvim.standardpaths.help]. Including network access.
 
-- External dependencies (plugins, programs or terminal emulators) must not
-  compromise the core functionality.
-- Prefer neovim core API or stable dependencies.
-- If a dependency is absolutely needed. Make patches to ensure its stability.
-- All dependant features should be accesible only when the necessary requirements
-  are met and should function as expected regardless of the platform.
-- Users are responsible for fulfilling the software requirements and
-  deciding which features to enable.
-- The program should assists users in meeting these requirements as much
-  as possible.
-
+[nvim.command.help]: https://neovim.io/doc/user/cmdline.html#cmdline
+[nvim.standardpaths.help]: https://neovim.io/doc/user/starting.html#_standard-paths
